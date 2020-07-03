@@ -6,7 +6,7 @@ padded_armor_bicep_r = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"blasteffectiveness",10,45,10},
-		{"armor_effectiveness",8,29,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",18750, 31000,0},
 		{"armor_health_encumbrance",22,13,0},
 		{"armor_action_encumbrance",24,14,0},
@@ -23,7 +23,7 @@ padded_armor_bicep_r = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 50,
-	junkMaxValue = 100
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("padded_armor_bicep_r", padded_armor_bicep_r)

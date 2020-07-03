@@ -27,7 +27,7 @@ baton_stun = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
-	junkMaxValue = 55
+	junkMaxValue = 550
 }
 
 addLootItemTemplate("baton_stun", baton_stun)

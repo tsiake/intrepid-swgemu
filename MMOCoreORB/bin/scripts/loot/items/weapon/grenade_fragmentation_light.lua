@@ -23,7 +23,7 @@ grenade_fragmentation_light = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 20,
-	junkMaxValue = 40
+	junkMaxValue = 400
 }
 
 addLootItemTemplate("grenade_fragmentation_light", grenade_fragmentation_light)

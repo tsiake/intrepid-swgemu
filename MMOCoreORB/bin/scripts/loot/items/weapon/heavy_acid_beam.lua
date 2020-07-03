@@ -23,7 +23,7 @@ heavy_acid_beam = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
-	junkMaxValue = 55
+	junkMaxValue = 550
 }
 
 addLootItemTemplate("heavy_acid_beam", heavy_acid_beam)

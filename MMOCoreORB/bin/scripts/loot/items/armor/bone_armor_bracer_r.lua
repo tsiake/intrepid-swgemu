@@ -5,8 +5,8 @@ bone_armor_bracer_r = {
 	directObjectTemplate = "object/tangible/wearables/armor/bone/armor_bone_s01_bracer_r.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-		{"energyeffectiveness",10,35,10},
-		{"armor_effectiveness",4,19,10},
+		{"energyeffectiveness",40,55,40},
+		{"armor_effectiveness",20,60,20},
 		{"armor_integrity",7500, 12500,0},
 		{"armor_health_encumbrance",6,4,0},
 		{"armor_action_encumbrance",8,4,0},
@@ -23,7 +23,7 @@ bone_armor_bracer_r = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 25,
-	junkMaxValue = 50
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("bone_armor_bracer_r", bone_armor_bracer_r)

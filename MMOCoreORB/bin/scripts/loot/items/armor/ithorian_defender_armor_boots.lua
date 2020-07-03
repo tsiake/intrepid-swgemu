@@ -6,7 +6,7 @@ ithorian_defender_armor_boots = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"blasteffectiveness",10,45,10},
-		{"armor_effectiveness",8,29,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",18750, 31000,0},
 		{"armor_health_encumbrance",23,14,0},
 		{"armor_action_encumbrance",44,26,0},
@@ -23,7 +23,7 @@ ithorian_defender_armor_boots = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 50,
-	junkMaxValue = 100
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("ithorian_defender_armor_boots", ithorian_defender_armor_boots)

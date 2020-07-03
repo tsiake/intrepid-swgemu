@@ -15,7 +15,7 @@ padded_armor_belt = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 50,
-	junkMaxValue = 100
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("padded_armor_belt", padded_armor_belt)

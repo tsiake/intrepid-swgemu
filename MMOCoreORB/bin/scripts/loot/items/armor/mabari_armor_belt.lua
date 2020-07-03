@@ -17,7 +17,7 @@ mabari_armor_belt = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 30,
-	junkMaxValue = 60
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("mabari_armor_belt", mabari_armor_belt)

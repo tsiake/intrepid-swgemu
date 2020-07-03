@@ -6,7 +6,7 @@ ubese_armor_pants = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"kineticeffectiveness",10,40,10},
-		{"armor_effectiveness",4,29,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",18750, 31250,0},
 		{"armor_health_encumbrance",33,20,0},
 		{"armor_action_encumbrance",113,68,0},
@@ -21,7 +21,7 @@ ubese_armor_pants = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 45,
-	junkMaxValue = 90
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("ubese_armor_pants", ubese_armor_pants)

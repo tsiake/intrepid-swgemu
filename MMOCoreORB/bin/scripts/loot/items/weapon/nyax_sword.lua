@@ -43,7 +43,7 @@ nyax_sword = {
 	},
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 20,
-	junkMaxValue = 60
+	junkMaxValue = 600
 
 }
 

@@ -27,7 +27,7 @@ baton_gaderiffi = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS + JUNKTUSKEN,
 	junkMinValue = 25,
-	junkMaxValue = 45
+	junkMaxValue = 450
 
 }
 

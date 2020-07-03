@@ -6,7 +6,7 @@ tantel_armor_boots = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"energyeffectiveness",10,30,10},
-		{"armor_effectiveness",4,19,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",11250, 18750,0},
 		{"armor_health_encumbrance",9,6,0},
 		{"armor_action_encumbrance",22,13,0},
@@ -22,7 +22,7 @@ tantel_armor_boots = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 40,
-	junkMaxValue = 80
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("tantel_armor_boots", tantel_armor_boots)

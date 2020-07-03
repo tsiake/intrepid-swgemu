@@ -8,7 +8,7 @@ bh_armor_leggings = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"armor_special_type",0,0,0},
-		{"armor_effectiveness",10,50,10},
+		{"armor_effectiveness",40,60,40},
 		{"armor_integrity",20000,70000,0},
 		{"armor_health_encumbrance",75,45,0},
 		{"armor_action_encumbrance",175,105,0},
@@ -19,7 +19,7 @@ bh_armor_leggings = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 55,
-	junkMaxValue = 110
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("bh_armor_leggings", bh_armor_leggings)

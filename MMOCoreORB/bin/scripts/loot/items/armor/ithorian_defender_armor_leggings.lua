@@ -6,7 +6,7 @@ ithorian_defender_armor_leggings = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"blasteffectiveness",10,45,10},
-		{"armor_effectiveness",8,29,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",18750, 31000,0},
 		{"armor_health_encumbrance",23,14,0},
 		{"armor_action_encumbrance",175,105,0},
@@ -23,7 +23,7 @@ ithorian_defender_armor_leggings = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 50,
-	junkMaxValue = 100
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("ithorian_defender_armor_leggings", ithorian_defender_armor_leggings)

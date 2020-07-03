@@ -5,8 +5,8 @@ chitin_armor_chest_plate = {
 	directObjectTemplate = "object/tangible/wearables/armor/chitin/armor_chitin_s01_chest_plate.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-		{"kineticeffectiveness",10,40,10},
-		{"armor_effectiveness",4,29,10},
+		{"kineticeffectiveness",30,60,30},
+		{"armor_effectiveness",25,65,25},
 		{"armor_integrity",15000, 25000,0},
 		{"armor_health_encumbrance",125,75,0},
 		{"armor_action_encumbrance",38,23,0},
@@ -23,7 +23,7 @@ chitin_armor_chest_plate = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 35,
-	junkMaxValue = 70
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("chitin_armor_chest_plate", chitin_armor_chest_plate)

@@ -27,7 +27,7 @@ pistol_dx2 = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
-	junkMaxValue = 55
+	junkMaxValue = 550
 
 }
 

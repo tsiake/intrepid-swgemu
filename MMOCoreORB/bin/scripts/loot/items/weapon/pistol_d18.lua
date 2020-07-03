@@ -27,7 +27,7 @@ pistol_d18 = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 20,
-	junkMaxValue = 40
+	junkMaxValue = 400
 
 }
 

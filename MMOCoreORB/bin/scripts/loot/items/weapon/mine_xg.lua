@@ -23,7 +23,7 @@ mine_xg = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 25,
-	junkMaxValue = 45
+	junkMaxValue = 450
 }
 
 addLootItemTemplate("mine_xg", mine_xg)

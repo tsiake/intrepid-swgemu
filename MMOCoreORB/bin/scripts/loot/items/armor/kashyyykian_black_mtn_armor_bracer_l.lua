@@ -6,7 +6,7 @@ kashyyykian_black_mtn_armor_bracer_l = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"kineticeffectiveness",10,40,10},
-		{"armor_effectiveness",4,29,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",18750, 31250,0},
 		{"armor_health_encumbrance",17,10,0},
 		{"armor_action_encumbrance",22,13,0},
@@ -23,7 +23,7 @@ kashyyykian_black_mtn_armor_bracer_l = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 45,
-	junkMaxValue = 90
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("kashyyykian_black_mtn_armor_bracer_l", kashyyykian_black_mtn_armor_bracer_l)

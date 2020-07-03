@@ -27,7 +27,7 @@ knife_dagger = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 20,
-	junkMaxValue = 60
+	junkMaxValue = 600
 
 }
 

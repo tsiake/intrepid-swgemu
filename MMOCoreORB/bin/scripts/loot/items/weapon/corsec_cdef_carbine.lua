@@ -27,7 +27,7 @@ corsec_cdef_carbine = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS + JUNKCORSEC,
 	junkMinValue = 20,
-	junkMaxValue = 60
+	junkMaxValue = 600
 
 }
 

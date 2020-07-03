@@ -7,7 +7,7 @@ mabari_armor_chest_plate = {
 		{"armor_rating",1,1,0},
 		{"heateffectiveness",10,40,10},
 		{"blasteffectiveness",10,40,10},
-		{"armor_effectiveness",4,19,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",18750, 31250,0},
 		{"armor_health_encumbrance",75,45,0},
 		{"armor_action_encumbrance",11,7,0},
@@ -25,7 +25,7 @@ mabari_armor_chest_plate = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 30,
-	junkMaxValue = 60
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("mabari_armor_chest_plate", mabari_armor_chest_plate)

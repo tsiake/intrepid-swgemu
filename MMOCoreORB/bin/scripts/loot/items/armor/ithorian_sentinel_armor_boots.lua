@@ -5,7 +5,7 @@ ithorian_sentinel_armor_boots = {
 	directObjectTemplate = "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_boots.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-		{"armor_effectiveness",8,39,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",30000, 55000,0},
 		{"armor_health_encumbrance",25,15,0},
 		{"armor_action_encumbrance",44,22,0},
@@ -22,7 +22,7 @@ ithorian_sentinel_armor_boots = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 55,
-	junkMaxValue = 110
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("ithorian_sentinel_armor_boots", ithorian_sentinel_armor_boots)

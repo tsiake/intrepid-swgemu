@@ -23,7 +23,7 @@ heavy_lightning_beam = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
-	junkMaxValue = 55
+	junkMaxValue = 550
 }
 
 addLootItemTemplate("heavy_lightning_beam", heavy_lightning_beam)

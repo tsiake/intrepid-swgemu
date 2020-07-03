@@ -5,7 +5,7 @@ kashyyykian_hunting_armor_bracer_l = {
 	directObjectTemplate = "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bracer_l.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-		{"armor_effectiveness",8,39,10},
+		{"armor_effectiveness",40,65,40},
 		{"armor_integrity",30000, 55000,0},
 		{"armor_health_encumbrance",25,15,0},
 		{"armor_action_encumbrance",22,13,0},
@@ -24,7 +24,7 @@ kashyyykian_hunting_armor_bracer_l = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 55,
-	junkMaxValue = 110
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("kashyyykian_hunting_armor_bracer_l", kashyyykian_hunting_armor_bracer_l)

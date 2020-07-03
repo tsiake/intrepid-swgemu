@@ -23,7 +23,7 @@ grenade_imperial_detonator = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 30,
-	junkMaxValue = 55
+	junkMaxValue = 550
 }
 
 addLootItemTemplate("grenade_imperial_detonator", grenade_imperial_detonator)

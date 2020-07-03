@@ -5,8 +5,8 @@ bone_armor_chest_plate = {
 	directObjectTemplate = "object/tangible/wearables/armor/bone/armor_bone_s01_chest_plate.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-		{"energyeffectiveness",10,35,10},
-		{"armor_effectiveness",4,19,10},
+		{"energyeffectiveness",40,55,40},
+		{"armor_effectiveness",20,60,20},
 		{"armor_integrity",7500, 12500,0},
 		{"armor_health_encumbrance",56,34,0},
 		{"armor_action_encumbrance",24,13,0},
@@ -24,7 +24,7 @@ bone_armor_chest_plate = {
 
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 25,
-	junkMaxValue = 50
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("bone_armor_chest_plate", bone_armor_chest_plate)
