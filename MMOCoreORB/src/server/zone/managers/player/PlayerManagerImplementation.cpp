@@ -109,6 +109,8 @@
 #include <sys/stat.h>
 #include "server/zone/objects/transaction/TransactionLog.h"
 #include "server/zone/objects/creature/commands/TransferItemMiscCommand.h"
+#include "server/zone/managers/visibility/VisibilityManager.h"
+#include "server/zone/managers/mission/MissionManager.h"
 
 PlayerManagerImplementation::PlayerManagerImplementation(ZoneServer* zoneServer, ZoneProcessServer* impl,
 					bool trackOnlineUsers) : Logger("PlayerManager") {
@@ -1265,6 +1267,14 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 				doPvpDeathRatingUpdate(playerRef, copyThreatMap);
 			}
 		}, "PvpDeathRatingUpdateLambda");
+
+		CreatureObject* attackerCreature = attacker->asCreatureObject();
+		MissionManager* missionManager = attackerCreature->getZoneServer()->getMissionManager();
+		int reward = 250000;
+		missionManager->addPlayerToBountyList(attackerCreature->getObjectID(), reward);
+		VisibilityManager::instance()->increaseVisibility(attackerCreature, 500);
+		VisibilityManager::instance()->addToVisibilityList(attackerCreature);
+		attackerCreature->sendSystemMessage("You are now notorious. Watch your back.");
 	}
 
 	threatMap->removeAll(true);
