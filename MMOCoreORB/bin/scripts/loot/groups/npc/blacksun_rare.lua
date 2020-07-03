@@ -38,7 +38,25 @@ blacksun_rare = {
 		{itemTemplate = "rifle_tusken", weight = 100000},
 		{itemTemplate = "two_handed_sword_cleaver", weight = 100000},
 		{itemTemplate = "two_handed_sword_katana", weight = 100000},
-		{itemTemplate = "two_handed_sword_maul", weight = 100000}
+		{itemTemplate = "two_handed_sword_maul", weight = 100000},
+		{itemTemplate = "bone_armor_bicep_l", weight = 100000},
+		{itemTemplate = "bone_armor_bicep_r", weight = 100000},
+		{itemTemplate = "bone_armor_bracer_l", weight = 100000},
+		{itemTemplate = "bone_armor_bracer_r", weight = 100000},
+		{itemTemplate = "bone_armor_boots", weight = 100000},
+		{itemTemplate = "bone_armor_chest_plate", weight = 100000},
+		{itemTemplate = "bone_armor_leggings", weight = 100000},
+		{itemTemplate = "bone_armor_gloves", weight = 100000},
+		{itemTemplate = "bone_armor_helmet", weight = 100000},
+		{itemTemplate = "chitin_armor_bicep_l", weight = 100000},
+		{itemTemplate = "chitin_armor_bicep_r", weight = 100000},
+		{itemTemplate = "chitin_armor_boots", weight = 100000},
+		{itemTemplate = "chitin_armor_bracer_r", weight = 100000},
+		{itemTemplate = "chitin_armor_bracer_l", weight = 100000},
+		{itemTemplate = "chitin_armor_chest_plate", weight = 100000},
+		{itemTemplate = "chitin_armor_gloves", weight = 100000},
+		{itemTemplate = "chitin_armor_helmet", weight = 100000},
+		{itemTemplate = "chitin_armor_leggings", weight = 100000}
 	}
 }
 

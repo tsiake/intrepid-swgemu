@@ -7,7 +7,7 @@ janta_common = {
 	lootItems = {
 		{itemTemplate = "janta_blood", weight = 2500000},
 		{itemTemplate = "knife_janta", weight = 1500000},
-		{itemTemplate = "janta_hides", weight = 3500000},
+		{itemTemplate = "janta_hides", weight = 5500000},
 		{itemTemplate = "spear_rack_schematic", weight = 500000},
 		{groupTemplate = "wearables_common", weight = 1000000},
 		{groupTemplate = "wearables_uncommon", weight = 500000},
