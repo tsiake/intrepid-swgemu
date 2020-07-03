@@ -102,7 +102,7 @@ imperial_racial_penalty = {
 	{4, 3}, -- wookie
 	{5, 2},  -- bothan
 	{6, 1.5}, -- twilek
-	{7, 2},  -- zabrack
+	{7, 2},  -- zabrak
 	{33, 2}, --ithorian
 	{49, 2}, -- sullustan
 

@@ -24,13 +24,13 @@ knife_janta = {
 	customizationValues = {},
 
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
-	randomDotChance = 500,
+	randomDotChance = 250,
 
 	-- staticDotChance: The chance of this weapon object dropping with a static dot on it. Higher number means less chance. Set to 0 to always have a static dot.
 	staticDotChance = 0,
 
 	-- staticDotType: 1 = Poison, 2 = Disease, 3 = Fire, 4 = Bleed
-	staticDotType = 1,
+	staticDotType = 3,
 
 	-- staticDotValues: Object map that can randomly or statically generate a dot (used for weapon objects.)
 	staticDotValues = {
@@ -43,7 +43,7 @@ knife_janta = {
 
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 20,
-	junkMaxValue = 60
+	junkMaxValue = 600
 
 }
 

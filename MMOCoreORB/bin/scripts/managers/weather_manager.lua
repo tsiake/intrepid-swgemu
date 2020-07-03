@@ -173,9 +173,9 @@ lok = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 60, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 40, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 
-	hasDamagingSandstorms = 0,
+	hasDamagingSandstorms = 1,
 
 	sandstormDamage = 50, -- 30 = Annoying, 50 = deadly
 }
@@ -225,7 +225,7 @@ yavin4 = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 70, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 30, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 
