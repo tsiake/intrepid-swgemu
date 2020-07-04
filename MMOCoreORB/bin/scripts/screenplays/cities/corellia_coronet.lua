@@ -370,7 +370,7 @@ function CorelliaCoronetScreenPlay:spawnMobiles()
 		AiAgent(pNpc):setConvoTemplate("junkDealerArmsConvoTemplate")
 	end
 
-	--Meatlump's outside
+	--Meatlumps outside
 	spawnMobile(self.planet, "meatlump_buffoon",300,-145,28.9,-4959.8,63,0)
 	spawnMobile(self.planet, "meatlump_buffoon",300,-54.3,28.2,-4963.4,-90,0)
 	spawnMobile(self.planet, "meatlump_buffoon",300,-20.1,28,-4922.2,109,0)
@@ -394,6 +394,24 @@ function CorelliaCoronetScreenPlay:spawnMobiles()
 	spawnMobile(self.planet, "meatlump_fool",300,-257,30,-4968.4,24,0)
 	spawnMobile(self.planet, "meatlump_loon",300,-163,28.2,-49493,102,0)
 	spawnMobile(self.planet, "meatlump_loon",300,176,27.3,-4763.6,-7,0)
+
+	spawnMobile(self.planet, "meatlump_oaf",300,-140,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-145,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-150,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-155,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-160,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-165,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-170,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-175,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-180,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-185,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-190,28.8,-4958.5,83,0)
+
+	spawnMobile(self.planet, "meatlump_oaf",300,-195,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-200,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-205,28.8,-4958.5,83,0)
+	spawnMobile(self.planet, "meatlump_oaf",300,-210,28.8,-4958.5,83,0)
+
 	spawnMobile(self.planet, "meatlump_oaf",300,-136,28.8,-4958.5,83,0)
 	spawnMobile(self.planet, "meatlump_oaf",300,-72,28,-4973.1,-77,0)
 	spawnMobile(self.planet, "meatlump_oaf",300,97.6,26.6,-4867.1,101,0)
