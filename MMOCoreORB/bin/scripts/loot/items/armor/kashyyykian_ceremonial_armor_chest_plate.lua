@@ -22,8 +22,8 @@ kashyyykian_ceremonial_armor_chest_plate = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 35,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("kashyyykian_ceremonial_armor_chest_plate", kashyyykian_ceremonial_armor_chest_plate)

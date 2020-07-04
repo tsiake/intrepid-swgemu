@@ -21,8 +21,8 @@ tantel_armor_boots = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 40,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("tantel_armor_boots", tantel_armor_boots)

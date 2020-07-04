@@ -21,8 +21,8 @@ composite_armor_gloves = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 55,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("composite_armor_gloves", composite_armor_gloves)

@@ -24,8 +24,8 @@ mabari_armor_chest_plate = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 30,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("mabari_armor_chest_plate", mabari_armor_chest_plate)

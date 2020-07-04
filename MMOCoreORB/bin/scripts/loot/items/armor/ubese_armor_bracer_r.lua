@@ -20,8 +20,8 @@ ubese_armor_bracer_r = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 45,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("ubese_armor_bracer_r", ubese_armor_bracer_r)

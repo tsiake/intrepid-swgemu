@@ -23,8 +23,8 @@ kashyyykian_hunting_armor_leggings = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 55,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("kashyyykian_hunting_armor_leggings", kashyyykian_hunting_armor_leggings)

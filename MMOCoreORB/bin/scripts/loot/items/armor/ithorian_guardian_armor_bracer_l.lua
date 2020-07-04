@@ -22,8 +22,8 @@ ithorian_guardian_armor_bracer_l = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 35,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("ithorian_guardian_armor_bracer_l", ithorian_guardian_armor_bracer_l)

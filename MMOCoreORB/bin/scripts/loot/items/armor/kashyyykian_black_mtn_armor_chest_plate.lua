@@ -22,8 +22,8 @@ kashyyykian_black_mtn_armor_chest_plate = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 45,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("kashyyykian_black_mtn_armor_chest_plate", kashyyykian_black_mtn_armor_chest_plate)

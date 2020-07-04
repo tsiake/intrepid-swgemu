@@ -22,8 +22,8 @@ padded_armor_boots = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 50,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("padded_armor_boots", padded_armor_boots)

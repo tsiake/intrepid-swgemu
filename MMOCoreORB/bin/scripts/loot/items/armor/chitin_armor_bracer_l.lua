@@ -22,8 +22,8 @@ chitin_armor_bracer_l = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 35,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("chitin_armor_bracer_l", chitin_armor_bracer_l)

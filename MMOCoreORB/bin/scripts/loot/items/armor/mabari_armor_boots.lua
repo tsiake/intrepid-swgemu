@@ -23,8 +23,8 @@ mabari_armor_boots = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 30,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("mabari_armor_boots", mabari_armor_boots)

@@ -16,8 +16,8 @@ ubese_armor_bandolier = {
 	customizationValues = {},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 45,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("ubese_armor_bandolier", ubese_armor_bandolier)

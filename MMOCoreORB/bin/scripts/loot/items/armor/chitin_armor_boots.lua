@@ -22,8 +22,8 @@ chitin_armor_boots = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 35,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("chitin_armor_boots", chitin_armor_boots)

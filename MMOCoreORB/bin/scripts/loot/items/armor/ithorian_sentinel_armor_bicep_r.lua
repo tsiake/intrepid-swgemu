@@ -21,8 +21,8 @@ ithorian_sentinel_armor_bicep_r = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 55,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("ithorian_sentinel_armor_bicep_r", ithorian_sentinel_armor_bicep_r)

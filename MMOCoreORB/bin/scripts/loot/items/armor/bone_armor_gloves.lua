@@ -22,8 +22,8 @@ bone_armor_gloves = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 25,
-	junkMaxValue = 5000
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("bone_armor_gloves", bone_armor_gloves)

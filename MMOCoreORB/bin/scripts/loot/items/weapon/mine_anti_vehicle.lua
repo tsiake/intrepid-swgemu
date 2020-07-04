@@ -22,8 +22,8 @@ mine_anti_vehicle = {
 	-- randomDotChance: The chance of this weapon object dropping with a random dot on it. Higher number means less chance. Set to 0 to always have a random dot.
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
-	junkMinValue = 30,
-	junkMaxValue = 550
+	junkMinValue = 5,
+	junkMaxValue = 10 
 }
 
 addLootItemTemplate("mine_anti_vehicle", mine_anti_vehicle)
