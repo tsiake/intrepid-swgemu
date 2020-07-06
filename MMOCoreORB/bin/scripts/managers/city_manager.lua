@@ -85,7 +85,7 @@ TrainersPerRank = 5
 MissionTerminalsPerRank = 5
 
 -- Amount to discount city maintenance  float.  1 = 100%, .75 =75%, .5=50% etc
-maintenanceDiscount = 1.0
+maintenanceDiscount = .2
 
 --[[
 	CITIES ALLOWED PER PLANET
@@ -104,7 +104,7 @@ CitiesAllowed = {
 	{"rori", {50, 50, 30, 20, 20}},
 	{"talus", {50, 50, 30, 20, 20}},
 	{"tatooine", {20, 20, 15, 10, 10}},
-	{"yavin4", {5, 5, 10, 10, 5}}
+	{"yavin4", {5, 5, 5, 4, 3}}
 }
 
 
@@ -126,7 +126,7 @@ CitiesAllowed = {
 --]]
 CityTaxes = {
 	{--Income Tax
-		min = 0, max = 2000,
+		min = 0, max = 50000,
 		menuText = "@city/city:income_tax",
 		inputTitle = "@city/city:set_tax_t_income",
 		inputText = "@city/city:set_tax_d_income",
@@ -136,7 +136,7 @@ CityTaxes = {
 		emailBody = "@city/city:tax_income_body"
 	},
 	{--Property Tax
-		min = 0, max = 50,
+		min = 0, max = 500,
 		menuText = "@city/city:property_tax_prompt",
 		inputTitle = "@city/city:set_tax_t_property",
 		inputText = "@city/city:set_tax_d_property",
@@ -146,7 +146,7 @@ CityTaxes = {
 		emailBody = "@city/city:tax_property_body"
 	},
 	{--Sales Tax
-		min = 0, max = 20,
+		min = 0, max = 1000,
 		menuText = "@city/city:sales_tax",
 		inputTitle = "@city/city:set_tax_t_sales",
 		inputText = "@city/city:set_tax_d_sales",
@@ -156,7 +156,7 @@ CityTaxes = {
 		emailBody = "@city/city:tax_sales_body"
 	},
 	{--Travel Tax
-		min = 0, max = 500,
+		min = 0, max = 5000,
 		menuText = "@city/city:travel_tax",
 		inputTitle = "@city/city:set_tax_t_travel",
 		inputText = "@city/city:set_tax_d_travel",
@@ -166,7 +166,7 @@ CityTaxes = {
 		emailBody = "@city/city:tax_travel_body"
 	},
 	{--Garage Tax
-		min = 0, max = 30,
+		min = 0, max = 1000,
 		menuText = "@city/city:garage_tax",
 		inputTitle = "Adjust Garage Service Fee", -- missing from stf
 		inputText = "@city/city:set_tax_d_garage",

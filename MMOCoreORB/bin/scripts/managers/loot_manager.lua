@@ -54,7 +54,7 @@ exceptionalModifier = 4.0
 legendaryModifier = 8.0
 
 --The chance for random skill mods to be on looted weapons/wearables
-skillModChance = 50 -- 1 in 50
+skillModChance = 10 -- 1 in 10
 
 -- Value ranges for random dots on looted weapons (chance is set individually on the loot items)
 randomDotAttribute = {0, 8} -- See CreatureAttributes.h in src for numbers.
@@ -822,10 +822,10 @@ jediCrystalStats = {
 		maxWoundChance = 4,
 	},
 	lightsaber_module_krayt_dragon_pearl = {
-		minDamage = 20,
-		maxDamage = 50,
-		minHitpoints = 900,
-		maxHitpoints = 1400,
+		minDamage = 5,
+		maxDamage = 20,
+		minHitpoints = 500,
+		maxHitpoints = 1000,
 		minHealthSac = -6,
 		maxHealthSac = -9,
 		minActionSac = -6,
