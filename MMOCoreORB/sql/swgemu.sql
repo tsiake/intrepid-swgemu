@@ -116,6 +116,7 @@ CREATE TABLE  `swgemu`.`accounts` (
   `active` tinyint(1) NOT NULL DEFAULT '1',
   `admin_level` tinyint(1) NOT NULL DEFAULT '0',
   `salt` varchar(32) NOT NULL,
+  `email` varchar(32) NOT NULL DEFAULT 'notset',
   PRIMARY KEY (`account_id`) USING BTREE
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 
