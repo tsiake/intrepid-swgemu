@@ -294,7 +294,7 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `swgemu`.`galaxy`;
 CREATE TABLE  `swgemu`.`galaxy` (
   `galaxy_id` int(5) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL DEFAULT '',
+  `name` varchar(50) NOT NULL DEFAULT 'Intrepid',
   `address` varchar(100) NOT NULL DEFAULT '137.220.38.43',
   `port` int(8) NOT NULL DEFAULT '0',
   `pingport` int(8) DEFAULT NULL,
