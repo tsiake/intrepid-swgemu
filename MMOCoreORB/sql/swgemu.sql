@@ -296,8 +296,8 @@ CREATE TABLE  `swgemu`.`galaxy` (
   `galaxy_id` int(5) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL DEFAULT 'Intrepid',
   `address` varchar(100) NOT NULL DEFAULT '137.220.38.43',
-  `port` int(8) NOT NULL DEFAULT '0',
-  `pingport` int(8) DEFAULT NULL,
+  `port` int(8) NOT NULL DEFAULT '44463',
+  `pingport` int(8) NOT NULL DEFAULT '44462',
   `population` int(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`galaxy_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
