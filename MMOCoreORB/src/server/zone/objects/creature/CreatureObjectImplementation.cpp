@@ -2102,7 +2102,7 @@ void CreatureObjectImplementation::notifyLoadFromDatabase() {
 
 	const SkillList* playerSkillList = getSkillList();
 
-	int totalSkillPointsWasted = 250;
+	int totalSkillPointsWasted = 150;
 
 	for (int i = 0; i < playerSkillList->size(); ++i) {
 		Skill* skill = playerSkillList->get(i);
