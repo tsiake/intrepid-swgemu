@@ -116,15 +116,15 @@ corellia = {
 -----------------
 tatooine = {
 
-	defaultWeather = 0, -- Sunny
+	defaultWeather = 5, -- Sunny
 
 	averageWeatherDuration = 3600, -- In seconds
 
 	weatherStability = 70, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 
-	hasDamagingSandstorms = 0,
+	hasDamagingSandstorms = 1,
 
-	sandstormDamage = 70, -- 40 = Annoying, 100 = deadly
+	sandstormDamage = 40, -- 40 = Annoying, 100 = deadly
 }
 
 
@@ -145,7 +145,7 @@ dantooine = {
 -----------------
 dathomir = {
 
-	defaultWeather = 0, -- Sunny
+	defaultWeather = 5, -- Sunny
 
 	averageWeatherDuration = 3600, -- In seconds
 
@@ -157,7 +157,7 @@ dathomir = {
 -----------------
 endor = {
 
-	defaultWeather = 0, -- Sunny
+	defaultWeather = 5, -- Sunny
 
 	averageWeatherDuration = 3600, -- In seconds
 
@@ -169,7 +169,7 @@ endor = {
 -----------------
 lok = {
 
-	defaultWeather = 0, -- Sunny
+	defaultWeather = 5, -- Sunny
 
 	averageWeatherDuration = 3600, -- In seconds
 

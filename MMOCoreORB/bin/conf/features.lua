@@ -67,11 +67,11 @@
 
 --Armor Protection
 --Values: "normal", "minisuits"
---feature("armorProtection", "minisuits")
+feature("armorProtection", "minisuits")
 
 --GCW System
 --Values: "specialForces", "TEF"
---feature("gcwSystem", "specialForces")
+feature("gcwSystem", "specialForces")
 
 --************************
 --Broken Skillmods Section
@@ -80,4 +80,4 @@
 --feature("modUnarmedDamage", "enabled");
 --feature("modCombatMedicEffectiveness", "enabled");
 
-testing = "test"
+--testing = "test"
