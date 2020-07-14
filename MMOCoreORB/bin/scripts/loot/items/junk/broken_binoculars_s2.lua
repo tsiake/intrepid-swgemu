@@ -8,8 +8,8 @@ broken_binoculars_s2 = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 20,
-	junkMaxValue = 40
+	junkMinValue = 0,
+	junkMaxValue = 10
 }
 
 addLootItemTemplate("broken_binoculars_s2", broken_binoculars_s2)

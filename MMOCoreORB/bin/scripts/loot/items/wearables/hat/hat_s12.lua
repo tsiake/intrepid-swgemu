@@ -10,8 +10,8 @@ hat_s12 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 45,
-    junkMaxValue = 90
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("hat_s12", hat_s12)

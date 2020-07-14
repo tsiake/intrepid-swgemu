@@ -8,8 +8,8 @@ cargo_pocket = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 20,
-	junkMaxValue = 40
+	junkMinValue = 0,
+	junkMaxValue = 10
 }
 
 addLootItemTemplate("cargo_pocket", cargo_pocket)

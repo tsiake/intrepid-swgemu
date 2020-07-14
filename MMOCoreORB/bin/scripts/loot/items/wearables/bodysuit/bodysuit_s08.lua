@@ -10,8 +10,8 @@ bodysuit_s08 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 55,
-    junkMaxValue = 110
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("bodysuit_s08", bodysuit_s08)

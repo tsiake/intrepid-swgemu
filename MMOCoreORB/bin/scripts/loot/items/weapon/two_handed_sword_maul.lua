@@ -27,7 +27,7 @@ two_handed_sword_maul = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 35
 
 }
 

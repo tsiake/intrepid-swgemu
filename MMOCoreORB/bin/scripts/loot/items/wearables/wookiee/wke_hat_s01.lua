@@ -10,8 +10,8 @@ wke_hat_s01 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 30,
-    junkMaxValue = 60
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("wke_hat_s01", wke_hat_s01)

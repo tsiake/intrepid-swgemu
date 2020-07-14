@@ -23,7 +23,7 @@ heavy_particle_beam = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 30 
 }
 
 addLootItemTemplate("heavy_particle_beam", heavy_particle_beam)

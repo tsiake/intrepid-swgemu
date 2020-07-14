@@ -25,7 +25,7 @@ rifle_flame_thrower = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 40
 
 }
 

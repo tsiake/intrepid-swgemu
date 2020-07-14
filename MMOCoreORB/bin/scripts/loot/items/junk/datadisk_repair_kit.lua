@@ -10,8 +10,8 @@ datadisk_repair_kit = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 20,
-	junkMaxValue = 40
+	junkMinValue = 0,
+	junkMaxValue = 10
 }
 
 addLootItemTemplate("datadisk_repair_kit", datadisk_repair_kit)

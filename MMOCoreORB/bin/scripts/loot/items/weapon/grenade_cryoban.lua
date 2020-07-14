@@ -23,7 +23,7 @@ grenade_cryoban = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 25 
 }
 
 addLootItemTemplate("grenade_cryoban", grenade_cryoban)

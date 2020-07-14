@@ -13,7 +13,7 @@ shoes_s02 = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
     junkMinValue = 5,
-    junkMaxValue = 10
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("shoes_s02", shoes_s02)

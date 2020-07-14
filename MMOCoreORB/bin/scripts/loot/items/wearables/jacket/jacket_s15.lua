@@ -10,8 +10,8 @@ jacket_s15 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 25,
-    junkMaxValue = 50
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("jacket_s15", jacket_s15)

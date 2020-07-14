@@ -22,7 +22,7 @@ rifle_ewok_crossbow = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 20 
 
 }
 

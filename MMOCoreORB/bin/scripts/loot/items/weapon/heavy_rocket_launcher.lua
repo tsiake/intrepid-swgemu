@@ -23,7 +23,7 @@ heavy_rocket_launcher = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 100 
 }
 
 addLootItemTemplate("heavy_rocket_launcher", heavy_rocket_launcher)

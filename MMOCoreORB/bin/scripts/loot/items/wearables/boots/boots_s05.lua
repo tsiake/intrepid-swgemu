@@ -10,8 +10,8 @@ boots_s05 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 35,
-    junkMaxValue = 70
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("boots_s05", boots_s05)

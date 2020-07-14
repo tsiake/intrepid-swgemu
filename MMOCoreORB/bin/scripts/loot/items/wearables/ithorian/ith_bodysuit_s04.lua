@@ -10,8 +10,8 @@ ith_bodysuit_s04 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 45,
-    junkMaxValue = 90
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("ith_bodysuit_s04", ith_bodysuit_s04)

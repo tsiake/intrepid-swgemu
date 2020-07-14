@@ -10,8 +10,8 @@ ith_jacket_s14 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 45,
-    junkMaxValue = 90
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("ith_jacket_s14", ith_jacket_s14)

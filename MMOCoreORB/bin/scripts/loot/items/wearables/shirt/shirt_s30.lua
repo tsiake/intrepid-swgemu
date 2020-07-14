@@ -10,8 +10,8 @@ shirt_s30 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 50,
-    junkMaxValue = 100
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("shirt_s30", shirt_s30)

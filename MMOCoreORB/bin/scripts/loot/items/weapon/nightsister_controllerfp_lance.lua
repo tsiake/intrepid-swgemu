@@ -42,7 +42,7 @@ nightsister_controllerfp_lance = {
 	},
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 25 
 
 }
 

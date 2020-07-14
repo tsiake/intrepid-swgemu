@@ -10,8 +10,8 @@ bikini_leggings_s01 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 55,
-    junkMaxValue = 110
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("bikini_leggings_s01", bikini_leggings_s01)

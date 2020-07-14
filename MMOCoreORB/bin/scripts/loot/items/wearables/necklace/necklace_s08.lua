@@ -10,8 +10,8 @@ necklace_s08 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 30,
-    junkMaxValue = 60
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("necklace_s08", necklace_s08)

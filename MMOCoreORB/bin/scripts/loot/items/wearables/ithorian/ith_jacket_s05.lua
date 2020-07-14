@@ -12,8 +12,8 @@ ith_jacket_s05 = {
         {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 40,
-    junkMaxValue = 80
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("ith_jacket_s05", ith_jacket_s05)

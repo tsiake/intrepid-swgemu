@@ -10,8 +10,8 @@ skirt_s14 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 35,
-    junkMaxValue = 70
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("skirt_s14", skirt_s14)

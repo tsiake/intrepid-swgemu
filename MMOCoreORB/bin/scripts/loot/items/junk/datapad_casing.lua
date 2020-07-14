@@ -10,8 +10,8 @@ datapad_casing = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 20,
-	junkMaxValue = 40
+	junkMinValue = 0,
+	junkMaxValue = 10
 }
 
 addLootItemTemplate("datapad_casing", datapad_casing)

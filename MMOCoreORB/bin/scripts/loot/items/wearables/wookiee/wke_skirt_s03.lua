@@ -10,8 +10,8 @@ wke_skirt_s03 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 30,
-    junkMaxValue = 60
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("wke_skirt_s03", wke_skirt_s03)

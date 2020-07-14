@@ -23,7 +23,7 @@ grenade_thermal_detonator = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 50 
 }
 
 addLootItemTemplate("grenade_thermal_detonator", grenade_thermal_detonator)

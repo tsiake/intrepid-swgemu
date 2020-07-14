@@ -8,8 +8,8 @@ satchel = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 20,
-	junkMaxValue = 40
+	junkMinValue = 0,
+	junkMaxValue = 25
 }
 
 addLootItemTemplate("satchel", satchel)

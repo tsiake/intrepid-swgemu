@@ -10,8 +10,8 @@ belt_s12 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 40,
-    junkMaxValue = 80
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("belt_s12", belt_s12)

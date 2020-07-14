@@ -23,7 +23,7 @@ mine_drx55 = {
 	randomDotChance = 750,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 100 
 }
 
 addLootItemTemplate("mine_drx55", mine_drx55)

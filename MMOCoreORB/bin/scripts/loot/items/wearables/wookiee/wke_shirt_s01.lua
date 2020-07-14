@@ -13,7 +13,7 @@ wke_shirt_s01 = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
     junkMinValue = 5,
-    junkMaxValue = 10
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("wke_shirt_s01", wke_shirt_s01)

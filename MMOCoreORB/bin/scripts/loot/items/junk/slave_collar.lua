@@ -10,8 +10,8 @@ slave_collar = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 20,
-	junkMaxValue = 40
+	junkMinValue = 0,
+	junkMaxValue = 10
 }
 
 addLootItemTemplate("slave_collar", slave_collar)

@@ -10,8 +10,8 @@ gloves_s02 = {
     customizationValues = {
     },
     junkDealerTypeNeeded = JUNKFINERY,
-    junkMinValue = 30,
-    junkMaxValue = 60
+    junkMinValue = 5,
+    junkMaxValue = 15
 }
 
 addLootItemTemplate("gloves_s02", gloves_s02)
