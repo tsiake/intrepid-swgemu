@@ -10,8 +10,8 @@ tusken_raider_gloves = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKTUSKEN,
-	junkMinValue = 30,
-	junkMaxValue = 50
+	junkMinValue = 10,
+	junkMaxValue = 20
 }
 
 addLootItemTemplate("tusken_raider_gloves", tusken_raider_gloves)

@@ -11,7 +11,7 @@ nyax_necklace = {
 	customizationValues = {},
 	skillMods = {{"combat_medic_effectiveness", 5}},
 	junkDealerTypeNeeded = JUNKFINERY,
-	junkMinValue = 40,
+	junkMinValue = 10,
 	junkMaxValue = 60
 }
 

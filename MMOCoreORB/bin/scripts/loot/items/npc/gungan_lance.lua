@@ -8,7 +8,7 @@ gungan_lance = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGUNGAN,
-	junkMinValue = 35,
+	junkMinValue = 15,
 	junkMaxValue = 70
 }
 

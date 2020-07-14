@@ -9,7 +9,7 @@ jawa_beads = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKJAWA,
-	junkMinValue = 35,
+	junkMinValue = 15,
 	junkMaxValue = 70
 }
 
