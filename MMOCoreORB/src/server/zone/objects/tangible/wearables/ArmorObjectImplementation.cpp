@@ -257,6 +257,7 @@ bool ArmorObjectImplementation::isVulnerable(int type) const {
 
 float ArmorObjectImplementation::getTypeValue(int type, float value) const {
 	int newValue = 0;
+	value *= 0.85;
 
 	if (vulnerabilites & type)
 		newValue = value;
@@ -271,11 +272,11 @@ float ArmorObjectImplementation::getTypeValue(int type, float value) const {
 		newValue *= effectivenessSlice;
 
 		if(sliced && effectivenessSlice > 1) {
-			if(newValue > 93)
-				newValue = 93;
+			if(newValue > 75)
+				newValue = 80;
 		} else {
-			if(newValue > 85)
-				newValue = 85;
+			if(newValue > 55)
+				newValue = 65;
 		}
 	}
 
