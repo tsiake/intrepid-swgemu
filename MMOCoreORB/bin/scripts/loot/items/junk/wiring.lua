@@ -11,7 +11,7 @@ wiring = {
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
 	junkMinValue = 0,
-	junkMaxValue = 10
+	junkMaxValue = 50
 }
 
 addLootItemTemplate("wiring", wiring)

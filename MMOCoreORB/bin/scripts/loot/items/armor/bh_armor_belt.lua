@@ -15,8 +15,8 @@ bh_armor_belt = {
 	customizationValues = {},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMinValue = 500,
+	junkMaxValue = 1000
 }
 
 addLootItemTemplate("bh_armor_belt", bh_armor_belt)

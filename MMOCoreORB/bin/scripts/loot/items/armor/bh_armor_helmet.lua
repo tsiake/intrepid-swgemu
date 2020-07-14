@@ -18,8 +18,8 @@ bh_armor_helmet = {
 	customizationValues = {},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMinValue = 5000,
+	junkMaxValue = 9999
 }
 
 addLootItemTemplate("bh_armor_helmet", bh_armor_helmet)

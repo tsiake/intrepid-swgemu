@@ -26,7 +26,7 @@ carbine_dxr6 = {
 	randomDotChance = 250,
 	junkDealerTypeNeeded = JUNKARMS,
 	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMaxValue = 100
 
 }
 

@@ -18,8 +18,8 @@ bh_armor_chest_plate = {
 	customizationValues = {},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMinValue = 3000,
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("bh_armor_chest_plate", bh_armor_chest_plate)

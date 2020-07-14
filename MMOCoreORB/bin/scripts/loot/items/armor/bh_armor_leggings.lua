@@ -18,8 +18,8 @@ bh_armor_leggings = {
 	customizationValues = {},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMinValue = 3000,
+	junkMaxValue = 5000
 }
 
 addLootItemTemplate("bh_armor_leggings", bh_armor_leggings)

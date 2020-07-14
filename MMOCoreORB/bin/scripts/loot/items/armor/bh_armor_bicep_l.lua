@@ -18,8 +18,8 @@ bh_armor_bicep_l = {
 	customizationValues = {},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMinValue = 1000,
+	junkMaxValue = 2000
 }
 
 addLootItemTemplate("bh_armor_bicep_l", bh_armor_bicep_l)

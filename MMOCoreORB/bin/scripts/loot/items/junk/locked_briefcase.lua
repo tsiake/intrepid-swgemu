@@ -10,8 +10,8 @@ locked_briefcase = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 0,
-	junkMaxValue = 10
+	junkMinValue = 99,
+	junkMaxValue = 299
 }
 
 addLootItemTemplate("locked_briefcase", locked_briefcase)

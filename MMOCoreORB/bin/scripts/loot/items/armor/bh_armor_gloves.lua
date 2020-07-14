@@ -18,8 +18,8 @@ bh_armor_gloves = {
 	customizationValues = {},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMinValue = 1000,
+	junkMaxValue = 2000 
 }
 
 addLootItemTemplate("bh_armor_gloves", bh_armor_gloves)

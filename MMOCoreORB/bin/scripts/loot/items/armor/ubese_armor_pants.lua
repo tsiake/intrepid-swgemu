@@ -20,8 +20,8 @@ ubese_armor_pants = {
 	},
 
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 5,
-	junkMaxValue = 10 
+	junkMinValue = 25,
+	junkMaxValue = 50
 }
 
 addLootItemTemplate("ubese_armor_pants", ubese_armor_pants)

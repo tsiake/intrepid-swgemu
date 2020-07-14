@@ -8,7 +8,7 @@ locked_container = {
 	customizationStringNames = {},
 	customizationValues = {},
 	junkDealerTypeNeeded = JUNKGENERIC,
-	junkMinValue = 0,
+	junkMinValue = 600,
 	junkMaxValue = 999
 }
 
