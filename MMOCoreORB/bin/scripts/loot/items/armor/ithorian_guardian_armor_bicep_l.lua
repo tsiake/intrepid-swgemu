@@ -6,7 +6,7 @@ ithorian_guardian_armor_bicep_l = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"kineticeffectiveness",10,40,10},
-		{"armor_effectiveness",40,65,40},
+		{"armor_effectiveness",40,45,40},
 		{"armor_integrity",15000, 25000,0},
 		{"armor_health_encumbrance",13,8,0},
 		{"armor_action_encumbrance",13,8,0},

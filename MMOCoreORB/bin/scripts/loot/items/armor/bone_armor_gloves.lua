@@ -6,7 +6,7 @@ bone_armor_gloves = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"energyeffectiveness",40,55,40},
-		{"armor_effectiveness",20,60,20},
+		{"armor_effectiveness",20,30,20},
 		{"armor_integrity",7500, 12500,0},
 		{"armor_health_encumbrance",6,4,0},
 		{"armor_action_encumbrance",16,8,0},

@@ -6,7 +6,7 @@ chitin_armor_helmet = {
 	craftingValues = {
 		{"armor_rating",1,1,0},
 		{"kineticeffectiveness",30,60,30},
-		{"armor_effectiveness",25,65,25},
+		{"armor_effectiveness",25,35,25},
 		{"armor_integrity",15000, 25000,0},
 		{"armor_health_encumbrance",13,8,0},
 		{"armor_action_encumbrance",13,8,0},

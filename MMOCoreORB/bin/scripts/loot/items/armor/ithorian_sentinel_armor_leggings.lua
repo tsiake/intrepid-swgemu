@@ -5,7 +5,7 @@ ithorian_sentinel_armor_leggings = {
 	directObjectTemplate = "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_leggings.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-		{"armor_effectiveness",40,65,40},
+		{"armor_effectiveness",40,45,40},
 		{"armor_integrity",30000, 55000,0},
 		{"armor_health_encumbrance",70,40,0},
 		{"armor_action_encumbrance",175,105,0},
