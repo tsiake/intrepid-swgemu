@@ -168,6 +168,8 @@ function trainerConvHandler:handleLearnScreen(pConvTemplate, pPlayer, pNpc, sele
 		moneyRequired = moneyRequired - ((moneyRequired * persuasion) / 100)
 	end
 
+	moneyRequired = moneyRequired * 0.10;
+
 	clonedConversation:setDialogTextStringId(stringTable .. "prose_cost")
 	clonedConversation:setDialogTextDI(moneyRequired)
 	clonedConversation:setDialogTextTO(skillStringId)
@@ -213,6 +215,8 @@ function trainerConvHandler:handleConfirmLearnScreen(pConvTemplate, pPlayer, pNp
 	if (persuasion > 0) then
 		moneyRequired = moneyRequired - ((moneyRequired * persuasion) / 100)
 	end
+
+	moneyRequired = moneyRequired * 0.10;
 
 	local cashCredits = CreatureObject(pPlayer):getCashCredits()
 	local bankCredits = CreatureObject(pPlayer):getBankCredits()
