@@ -80,6 +80,8 @@ function SkillTrainer:sendSkillInfoSui(pPlayer, pNpc, skillName)
 		moneyRequired = moneyRequired - ((moneyRequired * persuasion) / 100)
 	end
 
+	moneyRequired = moneyRequired * 0.10;
+
 	local skillReqTable = skillObject:getSkillsRequired()
 	local xpCost = skillObject:getXpCost()
 	local xpType = skillObject:getXpType()
